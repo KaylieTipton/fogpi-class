@@ -17,7 +17,7 @@ namespace FOGPISystems.StateMachine
         public OnStateExitEvent OnStateExit;
 
         [HideInInspector]
-        protected SimpleStateMachine StateMachine;
+        public SimpleStateMachine StateMachine;
 
         public virtual void OnStart()
         {

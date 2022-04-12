@@ -8,6 +8,7 @@ namespace FOGPISystems.StateMachine
     public class SimpleStateMachine : MonoBehaviour
     {
         [Header("States")]
+        [HideInInspector]
         public List<SimpleState> States;
         public string StateName;
         protected SimpleState state = null;
